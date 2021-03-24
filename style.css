@@ -38,11 +38,14 @@ h1{
   }
   .profil{
     display: flex;
-    flex: 1 1 50%;
+    flex: 0 1 calc(50% - 20px);
   }
   .popis{
     text-align: left;
     margin-left: 15px;
+  }
+  .profil img{
+    flex-shrink: 1;
   }
 }
 
