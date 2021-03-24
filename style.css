@@ -38,7 +38,7 @@ h1{
   }
   .profil{
     display: flex;
-    flex: 0 1 calc(50% - 20px);
+    flex: 1 1 45%;
   }
   .popis{
     text-align: left;
